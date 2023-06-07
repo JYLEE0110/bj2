@@ -31,7 +31,6 @@ class Bj2ApplicationTests {
 	public void testConnection(){
 		try (Connection con = dataScource.getConnection() ){
 			log.info(con);
-			log.info("씨발");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
